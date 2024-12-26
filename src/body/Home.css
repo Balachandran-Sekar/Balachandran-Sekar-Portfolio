@@ -6,11 +6,7 @@
  width: 70%;
  justify-content: center;
  align-items: center;
-}
-
-#name {
-    font-size: 36px;
-}
+}y
 
 #role {
     font-size: 24px; 
@@ -22,7 +18,6 @@
     font-size: 26px;
 }
 .obj-para{
-    font-size: 20px;
     text-indent: 5vh;
     text-align: justify;
 }
@@ -69,9 +64,6 @@ img{
         width: 25vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
-    #name {
-        font-size: 28px; 
-    }
 
     #role {
         font-size: 24px;
@@ -79,10 +71,6 @@ img{
     .obj-title{
         font-size: 22px;
     }
-    .obj-para{
-        font-size: 20px;
-    }
-    
 
 }
 
@@ -101,9 +89,6 @@ img{
        margin-left: 8vw;
        box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
-    #name {
-        font-size: 24px; 
-    }
 
     #role {
         font-size: 20px;
@@ -111,14 +96,9 @@ img{
     .obj-title{
         font-size: 18px;
     }
-    .obj-para{
-        font-size: 16px;
+    img{
+        height: 45vh;
+        width: 70vw;
+        box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
-}
-@media (max-width: 480px) {
-img{
-    height: 45vh;
-    width: 70vw;
-    box-shadow: 8px 8px 20px rgb(40, 39, 39);
-}
 }

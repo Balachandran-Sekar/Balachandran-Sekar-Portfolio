@@ -8,7 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Home = () => {
     return (
         <>
-            <div className='Home-container'>
+            <div className='Home-container' id='home'>
                 <div className='Details-container'>
                     <h1 id='name'><b>BALACHANDRAN SEKAR</b></h1>
                     <p id='role'>Software Trainee</p>
@@ -18,7 +18,7 @@ const Home = () => {
                 <a href="" className='instagram'><InstagramIcon style={{ color: '#000000',fontSize:"30px"}}/></a>
                 </div>
                     <div className="objective-container">
-                        <h2 className='obj-title'>Objective :</h2>
+                        <h2 className='obj-title'>Objective </h2>
                         <p className='obj-para'> A Motivated Software Trainee skilled in full-stack development with
  expertise in React, Node.js, MongoDB, and JavaScript. Builds
  responsive web interfaces and scalable applications, delivering
@@ -27,7 +27,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='Image-container'>
-                    {/* <img src={profile} alt='profile' /> */}
+                    <img src={profile} alt='profile' />
                 </div>
             </div>
         </>
