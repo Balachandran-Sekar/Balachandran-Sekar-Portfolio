@@ -1,12 +1,12 @@
 .Home-container{
-    margin: 3vh 0px 2vh 3vw;
+    margin: 3vh 0px 2vh 4vw;
     display: flex;
 }
 .Details-container{
  width: 70%;
  justify-content: center;
  align-items: center;
-}y
+}
 
 #role {
     font-size: 24px; 
@@ -39,11 +39,17 @@ img{
     box-shadow: 8px 8px 20px rgb(40, 39, 39);
 
 }
+.cv-down{
+    margin  :4vh 12vw 2vh 2vw;
+}
 @media (max-width: 1440px) {
     img{
         height: 40vh;
         width: 18vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+    .cv-down{
+        margin  :4vh 12vw 2vh 2vw;
     }
 }
 @media (max-width: 1024px) {
@@ -51,6 +57,9 @@ img{
         height: 40vh;
         width: 20vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+    .cv-down{
+        margin  :4vh 10vw 2vh 2vw;
     }
 }
 
@@ -70,6 +79,9 @@ img{
     }
     .obj-title{
         font-size: 22px;
+    }
+    .cv-down{
+        margin  :4vh 10vw 2vh 2vw;
     }
 
 }
@@ -100,5 +112,9 @@ img{
         height: 45vh;
         width: 70vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+    .cv-down{
+        display: inline-block;
+        margin  :4vh 0vw 2vh 25vw;
     }
 }
