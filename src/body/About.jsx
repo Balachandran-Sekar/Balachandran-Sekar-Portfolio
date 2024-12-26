@@ -3,9 +3,9 @@ import "./About.css"
 const About = () => {
   return (
     <>
-      <div className='about-container'>
+      <div className='about-container'id='about'>
         <h2>ABOUT</h2>
-        <div className="education">
+        <div className="education-container">
           <h2>Education</h2>
           <div className="school">
             <ul>
@@ -27,6 +27,34 @@ const About = () => {
             <p>Mookambigai College Of Engineering,Kalamavur.</p>
             <p>2020-2024 - 86.00%</p>
             </ul>
+          </div>
+        </div>
+        <div className="skills-container">
+          <h2>Skills</h2>
+          <div className="skills">
+          <ol className=''>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React Js</li>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+            <li>Material UI</li>
+            <li>Node Js</li>
+            <li>Express</li>
+            <li>Mongo DB</li>
+          </ol>
+        </div>
+        </div>
+        <div className="strengths-container">
+          <h2>Strengths</h2>
+          <div className="strengths">
+          <ol>
+            <li>Self-Confidence</li>
+            <li>Self-learning</li>
+            <li>Punctuality</li>
+            <li>Teamwork</li>
+          </ol>
           </div>
         </div>
       </div>

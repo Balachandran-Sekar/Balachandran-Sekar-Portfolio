@@ -1,0 +1,9 @@
+.contact-container{
+    margin: 5vh 0vh 2vh 3vw;
+}
+.contact-container li{
+    display: flex;
+    align-items: center;
+    gap:2vw;
+    margin-top: 2vh;
+}

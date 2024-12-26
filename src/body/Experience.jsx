@@ -27,7 +27,7 @@ const Experience = () => {
       
     return (
         <>
-            <div className='exp-container'>
+            <div className='exp-container' id='experience'>
                 <h2>EXPERIENCE</h2>
                 <div className="work">
                     <h2>Work Experience</h2>

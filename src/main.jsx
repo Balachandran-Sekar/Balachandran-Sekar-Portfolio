@@ -6,6 +6,8 @@ import About from './body/About.jsx';
 import Experience from './body/Experience.jsx';
 import Projects from './body/Projects.jsx';
 import Contact from"./body/Contact.jsx";
+import Footer from "./footer/footer.jsx"
+import "./main.css"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Experience/>
     <Projects/>
     <Contact/>
+    <Footer/>
   </StrictMode>,
 )
