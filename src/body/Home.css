@@ -21,8 +21,10 @@
     text-indent: 5vh;
     text-align: justify;
 }
-.links{
+.Home-container .links{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 5vh;
 }
 .Image-container{
@@ -31,7 +33,7 @@
     justify-content: center;
     align-items: center;
 }
-img{
+#profile{
     height: 40vh;
     width: 16vw;
     margin-top: 5vh;
@@ -39,11 +41,11 @@ img{
     box-shadow: 8px 8px 20px rgb(40, 39, 39);
 
 }
-.cv-down{
+.Home-container .links{
     margin  :4vh 12vw 2vh 2vw;
 }
 @media (max-width: 1440px) {
-    img{
+    #profile{
         height: 40vh;
         width: 18vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
@@ -51,14 +53,20 @@ img{
     .cv-down{
         margin  :4vh 12vw 2vh 2vw;
     }
+    .Home-container .links{
+        margin  :4vh 12vw 2vh 2vw;
+    }
 }
 @media (max-width: 1024px) {
-    img{
+    #profile{
         height: 40vh;
         width: 20vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
     .cv-down{
+        margin  :4vh 10vw 2vh 2vw;
+    }
+    .Home-container .links{
         margin  :4vh 10vw 2vh 2vw;
     }
 }
@@ -68,7 +76,7 @@ img{
         justify-content: center;
         align-items: center;
        }
-    img{
+    #profile{
         height: 40vh;
         width: 25vw;
         box-shadow: 8px 8px 20px rgb(40, 39, 39);
@@ -83,6 +91,9 @@ img{
     .cv-down{
         margin  :4vh 10vw 2vh 2vw;
     }
+    .Home-container .links{
+        margin  :4vh 10vw 2vh 6vw;
+    }
 
 }
 
@@ -95,10 +106,10 @@ img{
         justify-content: center;
         align-items: center;
        }
-    img{
-        height: 55vh;
-        width: 48vw;
-       margin-left: 8vw;
+    #profile{
+        height: 48vh;
+        width: 60vw;
+       margin-left: 14vw;
        box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
 
@@ -108,13 +119,30 @@ img{
     .obj-title{
         font-size: 18px;
     }
-    img{
-        height: 45vh;
-        width: 70vw;
-        box-shadow: 8px 8px 20px rgb(40, 39, 39);
-    }
     .cv-down{
-        display: inline-block;
-        margin  :4vh 0vw 2vh 25vw;
+        margin  :4vh 0vw 2vh 2vw;
+    }
+    .Home-container .links{
+        display: block;
+        margin  :4vh 0vw 2vh 30vw;
+        width: 100%;
+        display: flex;
+        gap: 15;
+    }
+}
+@media (max-width: 375px) {
+    #profile{
+        height: 40svh;
+        width: 60vw;
+       margin-left: 14vw;
+       box-shadow: 8px 8px 20px rgb(40, 39, 39);
+    }
+}
+@media (max-width: 320px) {
+    #profile{
+        height: 40svh;
+        width: 60vw;
+       margin-left: 14vw;
+       box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
 }

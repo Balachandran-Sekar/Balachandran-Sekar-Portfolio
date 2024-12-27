@@ -9,11 +9,11 @@ const Contact = () => {
   return (
    <>
    <div className="contact-container" id='contact'>
-    <h2>CONTACT</h2>
+    <h2 data-aos="fade-right">CONTACT</h2>
     <ol>
-    <li><a href="tel:+91 6379108577"><PhoneAndroidIcon style={{color:"000000",fontSize:"30px"}}/></a>+91 6379108577</li>
-    <li><a href="mailto:balacs2103@gmail.com"><EmailIcon style={{color:"000000",fontSize:"30px"}}/></a>balacs2103@gmail.com</li>
-    <li><p><LocationOnIcon style={{color:"000000",fontSize:"30px"}}/></p>81,Konnaipatti,Semboothi Post,Ponnamaravathi Tk,Pudukkottai Dt,TamilNadu,India -622401.</li>
+    <li data-aos="fade-right"><a href="tel:+91 6379108577"><PhoneAndroidIcon style={{color:"000000",fontSize:"30px"}}/></a>+91 6379108577</li>
+    <li data-aos="fade-right"><a href="mailto:balacs2103@gmail.com"><EmailIcon style={{color:"000000",fontSize:"30px"}}/></a>balacs2103@gmail.com</li>
+    <li data-aos="fade-right"><p><LocationOnIcon style={{color:"000000",fontSize:"30px"}}/></p>81,Konnaipatti,Semboothi Post,Ponnamaravathi Tk,Pudukkottai Dt,TamilNadu,India -622401.</li>
     </ol>
    </div>
    </>
