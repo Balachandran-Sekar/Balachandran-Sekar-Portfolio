@@ -1,5 +1,5 @@
 footer{
-    height: 10vh;
+    height: 5%;
     width: 100vw;
     background-color: rgb(232, 193, 140);
 }
@@ -8,3 +8,16 @@ footer{
     align-items: center;
     justify-content: center;
 }
+footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 2vh;
+}
+.instagram-gradient {
+    background: linear-gradient(45deg, #FFD700, #FF7E00, #E1306C, #833AB4, #405DE6);
+    /* -webkit-background-clip: text;  */
+    -webkit-text-fill-color: transparent; 
+  }
+  

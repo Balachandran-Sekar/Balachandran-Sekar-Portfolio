@@ -24,7 +24,7 @@ header a {
         height: 5vh;
     }
     
-    a {
+    header a {
         font-size: 0.9rem;
         margin: 0.5rem 0; 
     }
@@ -33,10 +33,18 @@ header a {
     header {
         height: 4vh;
     }
+    header a {
+        font-size: 0.8rem;
+        margin: 0.4rem 0; 
+    }
 }
 @media (max-width: 320px) {
     header {
         height: 3 vh;
+    }
+    header a {
+        font-size: 0.8rem;
+        margin: 0.3rem 0; 
     }
 }
 
