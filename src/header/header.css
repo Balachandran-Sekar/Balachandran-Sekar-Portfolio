@@ -15,13 +15,13 @@ header a {
 }
 @media (max-width: 1024px) {
     header{
-        height: 6vh;
+        height: 8vh;
     }
 }
 @media (max-width: 768px) {
     header {
         padding: 1rem 0;
-        height: 5vh;
+        height: 10vh;
     }
     
     header a {
@@ -31,7 +31,7 @@ header a {
 }
 @media (max-width: 375px) {
     header {
-        height: 4vh;
+        height: 10vh;
     }
     header a {
         font-size: 0.8rem;
@@ -40,7 +40,7 @@ header a {
 }
 @media (max-width: 320px) {
     header {
-        height: 3 vh;
+        height: 10vh;
     }
     header a {
         font-size: 0.8rem;
