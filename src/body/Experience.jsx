@@ -1,4 +1,5 @@
 import React from 'react'
+import ExpImg from "../assets/side-imgs/Experience.png"
 import "./Experience.css"
 
 const Experience = () => {
@@ -27,8 +28,9 @@ const Experience = () => {
 
     return (
         <>
-            <div className='exp-container' id='experience' data-aos="fade-right">
+            <div className='exp-container' id='experience'>
                 <h2 data-aos="fade-right">EXPERIENCE</h2>
+                <div className="work-exp">
                 <div className="work" data-aos="fade-right">
                     <h2 data-aos="fade-right">Work Experience</h2>
                     <p>{experience.toString()}</p>
@@ -44,6 +46,10 @@ const Experience = () => {
                             <p>July 2024 - October 2024</p>
                         </div>
                     </ul>
+                </div>
+                <div className="exp-img" data-aos="zoom-in-left">
+                    <img src={ExpImg} alt=""/>
+                </div>
                 </div>
                 <div className="internships">
                     <h2 data-aos="fade-right">Interships</h2>

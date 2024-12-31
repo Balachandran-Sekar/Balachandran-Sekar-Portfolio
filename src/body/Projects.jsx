@@ -1,10 +1,12 @@
 import React from 'react'
+import ProjectImg from "../assets/side-imgs/Projects.png"
 import "./Projects.css"
 
 const Projects = () => {
   return (
     <>
       <div className='projects-container' id='projects'>
+        <div className="projects">
         <h2 data-aos="fade-right">PROJECTS</h2>
         <ol>
           <div className="pro" id='pro1' data-aos="fade-right"><li className="abc">Exam Seat Allocation System</li>
@@ -21,6 +23,10 @@ const Projects = () => {
           </div>
 
         </ol>
+      </div>
+      <div className="pro-img" data-aos="zoom-in-left">
+          <img src={ProjectImg} alt=""/>
+        </div>
       </div>
     </>
   )
