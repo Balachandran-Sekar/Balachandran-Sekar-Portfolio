@@ -107,7 +107,7 @@
         align-items: center;
        }
     #profile{
-        height: 48vh;
+        height: 45vh;
         width: 60vw;
        margin-left: 14vw;
        box-shadow: 8px 8px 20px rgb(40, 39, 39);
@@ -132,8 +132,8 @@
 }
 @media (max-width: 375px) {
     #profile{
-        height: 40svh;
-        width: 60vw;
+        height: 40vh;
+        width: 57vw;
        margin-left: 14vw;
        box-shadow: 8px 8px 20px rgb(40, 39, 39);
     }
