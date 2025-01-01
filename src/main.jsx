@@ -41,7 +41,7 @@ const App = () => {
             <ThemeProvider theme={theme}>
                 <CssBaseline />
                 <Header />
-                {/* <Home /> */}
+                <Home />
                 <About />
                 <Experience />
                 <Projects />

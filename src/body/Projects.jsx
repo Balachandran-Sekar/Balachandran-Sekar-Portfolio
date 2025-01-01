@@ -1,35 +1,40 @@
-import React from 'react'
-import ProjectImg from "../assets/side-imgs/Projects.png"
-import "./Projects.css"
+import React from 'react';
+import ProjectImg from "../assets/side-imgs/Projects.png";
+import "./Projects.css";
 
-const Projects = () => {
-  return (
-    <>
-      <div className='projects-container' id='projects'>
-        <div className="projects">
-        <h2 data-aos="fade-right">PROJECTS</h2>
-        <ol>
-          <div className="pro" id='pro1' data-aos="fade-right"><li className="abc">Exam Seat Allocation System</li>
-            <a href="https://github.com/Balachandran-Sekar/ADVANCE-SEAT-ALLOCATION-MANAGEMENT-SYSTEM">Click to View</a></div>
-          <div className="pro" id='pro2' data-aos="fade-right"><li className="abc">Advanced Voice Assistant Chatbot</li>
-            <a href="https://github.com/Balachandran-Sekar/REDQUEEN-ADVANCE-CHATBOT-VOICE-ASSISTANT">Click to View</a></div>
-          <div className="pro" id='pro3' data-aos="fade-right"><li className="abc">EB Bill Genarator </li>
-            <a href="https://github.com/Balachandran-Sekar/Crud_Tasks/tree/main/EB_bil">Click to View</a></div>
-            <div className="pro" id='pro4' data-aos="fade-right"><li className="abc">Portfolio </li>
-            <a href="https://github.com/Balachandran-Sekar/Balachandran-Sekar-Portfolio">Click to View</a></div>
-          <div className="pro" id='pro5' data-aos="fade-right"><li className="abc">Crud Beat</li>
-          </div>
-          <div className="pro" id='pro6' data-aos="fade-right"><li className="abc">Skin Diseases Prediction Using Machine Learning</li>
-          </div>
+const projects = [
+  { id: 'pro1', name: 'Exam Seat Allocation System', link: 'https://github.com/Balachandran-Sekar/ADVANCE-SEAT-ALLOCATION-MANAGEMENT-SYSTEM' },
+  { id: 'pro2', name: 'Advanced Voice Assistant Chatbot', link: 'https://github.com/Balachandran-Sekar/REDQUEEN-ADVANCE-CHATBOT-VOICE-ASSISTANT' },
+  { id: 'pro3', name: 'EB Bill Generator', link: 'https://github.com/Balachandran-Sekar/Crud_Tasks/tree/main/EB_bil' },
+  { id: 'pro4', name: 'Portfolio', link: 'https://github.com/Balachandran-Sekar/Balachandran-Sekar-Portfolio' },
+  { id: 'pro5', name: 'Crud Beat', link: null },
+  { id: 'pro6', name: 'Skin Diseases Prediction Using Machine Learning', link: null }
+];
 
-        </ol>
-      </div>
-      <div className="pro-img" data-aos="zoom-in-left">
-          <img src={ProjectImg} alt=""/>
-        </div>
-      </div>
-    </>
-  )
-}
+const Projects = () => (
+  <div className='projects-container' id='projects'>
+    <div className="projects">
+      <h2 data-aos="fade-right">PROJECTS</h2>
+      <ol>
+  {projects.map(({ id, name, link }) => (
+    <div key={id} className="pro-list">
+      <li className="pro abc" id={id} data-aos="fade-right">
+        {name}
+      </li>
+      {link && (
+        <a href={link} target="_blank" rel="noopener noreferrer" data-aos="fade-right">
+          Click to View
+        </a>
+      )}
+    </div>
+  ))}
+</ol>
 
-export default Projects
+    </div>
+    <div className="pro-img" data-aos="zoom-in-left">
+      <img src={ProjectImg} alt="Projects" />
+    </div>
+  </div>
+);
+
+export default Projects;
