@@ -1,9 +1,11 @@
 import React from 'react';
+import { useTheme } from '@mui/material/styles';
 import EducationImg from "../assets/side-imgs/Education.png";
 import CertificationsImg from "../assets/side-imgs/Certifications.png";
 import "./About.css";
 
 const About = () => {
+  const theme = useTheme();
   const educationDetails = [
     { title: "SSLC", school: "M.Narayanan Chettiar High School, Koppanapatti.", year: "2017-2018", score: "89.80%" },
     { title: "HSC", school: "M.CT.RM.Ramanathan Chettiar Higher Secondary School, Kulipirai.", year: "2019-2020", score: "68.66%" },
